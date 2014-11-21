@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:background="#ffffff">
+      
+    
+    
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="160sp"
+        android:layout_height="30dip" />
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="150sp"
+        android:layout_height="50dip" />
+    
+      <TextView
+        android:id="@+id/valor"
+        android:layout_width="100sp"
+        android:layout_height="50dip" />
+    
+    <TextView
+        android:id="@+id/tipo"
+        android:layout_width="100sp"
+        android:layout_height="50dip" />
+
+</LinearLayout>
