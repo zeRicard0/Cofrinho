@@ -16,6 +16,9 @@ public final class R {
         public static final int abc_slide_out_bottom=0x7f040004;
         public static final int abc_slide_out_top=0x7f040005;
     }
+    public static final class array {
+        public static final int tipoMovimentacao=0x7f0c0000;
+    }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -1080,6 +1083,8 @@ containing a value of this type.
         public static final int salvar=0x7f020060;
     }
     public static final class id {
+        public static final int A=0x7f090050;
+        public static final int B=0x7f090053;
         public static final int action_bar=0x7f09001c;
         public static final int action_bar_activity_content=0x7f090001;
         public static final int action_bar_container=0x7f09001b;
@@ -1095,17 +1100,22 @@ containing a value of this type.
         public static final int always=0x7f09000f;
         public static final int beginning=0x7f090016;
         public static final int botaoData=0x7f090042;
-        public static final int btCancelar=0x7f090045;
-        public static final int btSalvar=0x7f090046;
+        public static final int botaoHora=0x7f09004a;
+        public static final int btCancelar=0x7f09004b;
+        public static final int btSalvar=0x7f09004c;
         public static final int campoData=0x7f090041;
+        public static final int campoHora=0x7f090049;
         public static final int campoNome=0x7f09003d;
-        public static final int campoTipo=0x7f090044;
+        public static final int campoTipo=0x7f090043;
         public static final int campoValor=0x7f09003f;
+        public static final int cbLembrete=0x7f090046;
         public static final int checkbox=0x7f09002d;
         public static final int collapseActionView=0x7f090010;
         public static final int data=0x7f090040;
         public static final int default_activity_button=0x7f090028;
         public static final int dialog=0x7f090014;
+        public static final int digitaA=0x7f090051;
+        public static final int digitaB=0x7f090054;
         public static final int disableHome=0x7f090009;
         public static final int dropdown=0x7f090015;
         public static final int edit_query=0x7f090030;
@@ -1117,6 +1127,11 @@ containing a value of this type.
         public static final int icon=0x7f09002a;
         public static final int ifRoom=0x7f090011;
         public static final int image=0x7f090027;
+        public static final int labelHora=0x7f090048;
+        public static final int labelLembrete=0x7f090045;
+        public static final int linearConteudo=0x7f09004d;
+        public static final int linearLayout1=0x7f09004f;
+        public static final int linearLayout2=0x7f090052;
         public static final int listMode=0x7f090006;
         public static final int list_item=0x7f090029;
         public static final int middle=0x7f090018;
@@ -1141,12 +1156,14 @@ containing a value of this type.
         public static final int showCustom=0x7f09000b;
         public static final int showHome=0x7f09000c;
         public static final int showTitle=0x7f09000d;
+        public static final int spinnerTipo=0x7f090044;
         public static final int split_action_bar=0x7f09001e;
         public static final int submit_area=0x7f090039;
         public static final int tabMode=0x7f090008;
-        public static final int tipo=0x7f090043;
+        public static final int tipo=0x7f09004e;
         public static final int title=0x7f09002b;
         public static final int top_action_bar=0x7f090020;
+        public static final int trHora=0x7f090047;
         public static final int up=0x7f090021;
         public static final int useLogo=0x7f09000e;
         public static final int valor=0x7f09003e;
@@ -1205,6 +1222,7 @@ containing a value of this type.
         public static final int activity_cadastro_cofrinho=0x7f030018;
         public static final int activity_lista_cofrinho=0x7f030019;
         public static final int support_simple_spinner_dropdown_item=0x7f03001a;
+        public static final int teste=0x7f03001b;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 

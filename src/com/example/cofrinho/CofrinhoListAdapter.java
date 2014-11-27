@@ -1,9 +1,11 @@
 package com.example.cofrinho;
 
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.List;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -63,6 +65,14 @@ public class CofrinhoListAdapter extends BaseAdapter {
 
 		TextView tipo = (TextView) view.findViewById(R.id.tipo);
 		tipo.setText(String.valueOf(c.tipo));
+
+		if (tipo.getText().toString().equals("0")) {
+			valor.setTextColor(Color.GREEN);
+		} else {
+			valor.setTextColor(Color.RED);
+		}
+
+		tipo.setVisibility(4);
 
 		return view;
 	}

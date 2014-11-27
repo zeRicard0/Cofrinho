@@ -3,5 +3,12 @@
 
     <string name="app_name">Cofrinho</string>
     <string name="hello_world">Hello world!</string>
+    
+    <string-array name="tipoMovimentacao">
+        
+        <item>Receita</item>
+        <item>Despesa</item>
+        
+    </string-array>
 
 </resources>

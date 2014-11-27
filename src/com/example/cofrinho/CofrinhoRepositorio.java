@@ -97,12 +97,16 @@ public class CofrinhoRepositorio {
 		return db.delete(COFRINHO_TABELA, where, whereArgs);
 	}
 	
-	
+	public void deleteAll(){
+		
+		db.execSQL("delete from " + COFRINHO_TABELA);
+		
+	}
 
 	public Cursor getCursor() {
 		try {
 			return db.query(COFRINHO_TABELA, Cofrinho.colunas, null, null,
-					null, null, null, null);
+					null, null, Cofrinhos.DATA, null );
 		} catch (SQLException e) {
 			return null;
 		}
